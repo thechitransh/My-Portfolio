@@ -27,14 +27,12 @@ body{
 .links{
     text-align: right;
     padding-bottom: 1rem;
+    
    
 }
 .links>a{
     margin: 0px 0.5rem;
     color: white;
-}
-.active-link{
-    text-decoration:overline
 }
 .header{
  display: block;
@@ -70,7 +68,7 @@ body{
     background-color: var(--primary-color);
     color: white;
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 .training{
     text-align: center;
@@ -89,4 +87,7 @@ footer{
     margin-top:  2rem;
     text-align: center;
     color: white;
+}
+.links a:hover{
+    text-decoration:overline;
 }

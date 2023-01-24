@@ -27,39 +27,40 @@ body{
 .links{
     text-align: right;
     padding-bottom: 1rem;
+    
    
 }
 .links>a{
     margin: 0px 0.5rem;
     color: white;
 }
-.active-link{
-    text-decoration:overline
-}
-header{
-    text-align: center;
+.resume-image{
+    max-width: 600px;
+    border: solid black;
     margin: 2rem;
 }
-.main{
-    text-align:center;
-    background-color: var(--secondory-color);
-    margin: 4rem 6rem;
-    border-radius: 1rem;
-    padding: 2rem;
+.resume{
+    text-align: center;
 }
-.link{
- margin-bottom:2rem;
+.resume>h3{
+    font-size: large;
+    
 }
-.social{
-    margin: 1rem;
+span{
+    margin-left: 0.2rem;
+    color: var(--primary-color);
 }
+.image{
+    width: 4rem;
+}
+
 footer{
     background-color: var(--primary-color);
     padding: 2rem;
     border-top-left-radius: 1.5rem;
     margin-top:  2rem;
     text-align: center;
-    color: white;   
+    color: white;
 }
 .links a:hover{
     text-decoration:overline;
